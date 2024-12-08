@@ -10,7 +10,7 @@ const Group = (props) => {
     }
 
     return (
-        <div className={className}>
+        <div style={props.style} className={className}>
             {props.children}
         </div>
     )

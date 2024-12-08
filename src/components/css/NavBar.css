@@ -5,7 +5,7 @@ h1 {
 }
 
 .nav-container {
-    padding: 20px;
+    padding: 35px;
 }
 
 .nav-container__nav {
@@ -51,4 +51,23 @@ h1 {
 
 .nav-container__nav__right__nav-item {
     justify-self: center;
+    cursor: pointer;
+}
+
+.nav-container__nav__right__nav-item:first-child {
+    position: relative;
+}
+
+.nav-container__nav__right__nav-item:first-child::before {
+    content: '';
+    display: block;
+    position: relative;
+    opacity: 0;
+    height: 100%;
+    width: 100px;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

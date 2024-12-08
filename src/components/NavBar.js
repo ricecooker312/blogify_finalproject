@@ -1,14 +1,13 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass, faUser } from '@fortawesome/free-solid-svg-icons'
 
 import Group from './Group'
+import ProfilePic from './ProfilePic'
 
 import './css/NavBar.css'
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
-    <Group className='nav-container'>
+    <Group className={` ${props.className} nav-container`}>
         <nav class='nav-container__nav'>
             <Group className='nav-container__nav__left'>
                 <ul className='nav-container__nav__left__navbar'>
@@ -30,7 +29,7 @@ const NavBar = () => {
             </Group>
             <Group className='nav-container__nav__right'>
                 <p className='nav-container__nav__right__nav-item'>John Doe</p>
-                <i className='fa-solid fa-user nav-container__nav__right__nav-item'></i>
+                <ProfilePic className='nav-container__nav__right__nav-item' />
                 <i className='fa-solid fa-magnifying-glass nav-container__nav__right__nav-item'></i>
             </Group>
         </nav>

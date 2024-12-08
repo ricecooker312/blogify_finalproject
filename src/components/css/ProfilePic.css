@@ -1,0 +1,18 @@
+.fa-user {
+    padding: 10px !important;
+}
+
+.profile-pic, .profile-pic-not-default {
+    padding: 17px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.profile-pic-not-default {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}

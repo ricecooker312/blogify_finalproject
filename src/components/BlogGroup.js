@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+import Group from './Group'
 
 import './css/BlogGroup.css'
 
-const BlogGroup = () => {
+const BlogGroup = (props) => {
     return (
-        <div class="container">
-            <div className='item item1'>1</div>
-            <div className='item item2'>2</div>
-            <div className='item item3'>3</div>
-            <div className='item item4'>4</div>
-        </div>
+        <Group className={`blog-container ${props.className}`} style={{
+            gridTemplateColumns: `repeat(${props.columns}, 1fr)`,
+            gridTemplateRows: `repeat(${props.rows}, 1fr)`
+        }}>
+            {props.children}
+        </Group>
     )
 }
 

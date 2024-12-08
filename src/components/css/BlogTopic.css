@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.blog-topic {
+   position: absolute;
+   top: 3%;
+   left: 2%;
+   color: black;
+   text-transform: uppercase;
+   font-family: 'Karla', sans-serif;
+   background-color: #6255FF;
+   font-weight: bold;
+}

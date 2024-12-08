@@ -8,3 +8,104 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.center {
+  text-align: center;
+}
+
+.App__foryou, .App__navbar {
+  background: #f3f1f1;
+}
+
+.App__foryou__blogs {
+  width: 100%;
+  height: 36em;
+  gap: 15px;
+  padding: 20px;
+}
+
+.App__foryou__blogs__large {
+  background: url('./components/images/guitar_image.jpg');
+}
+
+.App__foryou__blogs__large__title {
+  max-width: 60%;
+  top: 60%;
+  font-size: 2.5em;
+  left: 1em;
+  position: absolute;
+}
+
+.App__foryou__blogs__small-top, .App__foryou__blogs__small-bottom {
+  background-color: black;
+}
+
+.App__foryou__blogs__small-top__title {
+  margin: 25px;
+  top: 50%;
+}
+
+.App__foryou__blogs__small-bottom__title {
+  margin: 20px;
+  top: 70%;
+}
+
+.App__foryou__blogs__small-top {
+  background: url("./components/images/electric_car.jpg");
+}
+
+.App__foryou__blogs__small-bottom {
+  background: url("./components/images/salad.jpg");
+}
+
+.App__foryou__blogs__large__topic {
+  font-size: 15px;
+  padding: 0.95em 1.7em;
+}
+
+.App__foryou__blogs__small-bottom__topic, .App__foryou__blogs__small-top__topic {
+  font-size: 12px;
+  padding: 0.65em 1.3em;
+}
+
+.App__foryou__blogs__large__profile-pic {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  top: 48%;
+  left: 2%;
+}
+
+.App__foryou__blogs__small-bottom__profile-pic, .App__foryou__blogs__small-top__profile-pic {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+}
+
+.App__foryou__blogs__small-bottom__profile-pic {
+  top: 59%;
+  left: 1%;
+}
+
+.App__foryou__blogs__small-top__profile-pic {
+  top: 41%;
+  left: 1.5%;
+}
+
+.App__foryou__blogs__large__username {
+  position: absolute;
+  top: 51.4%;
+  left: 9%;
+}
+
+.App__foryou__blogs__small-top__username {
+  position: absolute;
+  top: 47%;
+  left: 13%;
+}
+
+.App__foryou__blogs__small-bottom__username {
+  position: absolute;
+  top: 64.7%;
+  left: 13%;
+}
